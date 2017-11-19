@@ -1,7 +1,81 @@
+/*Default Styles*/
+
+li {
+    margin: 7px;
+    width: auto;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    font: #000;
+    font-size: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+/*Top Navbar*/
+
+#page_head {
+    margin-top: 8px;
+    position: absolute;
+    right: 22px;
+}
+
+.top_nav {
+    display: block;
+    float: right;
+}
+
+.top_nav ul {
+}
+
+.top_nav ul li {
+    display: inline-block;
+}
+
+.icon1 {
+    width: 15px;
+    height: 15px;
+    opacity: 0.55;
+}
+
+.text_link{
+    font-size: 13px;
+    opacity: 0.85;
+}
+
+.text_link:hover {
+    text-decoration: underline;
+}
+
+.nav_button {
+    color: #fff;
+    font-weight: 700;
+    width: 89px;
+    height: 30px;
+    background-color: #4285f4;
+    border: 1px solid #4285f4;
+    border-radius: 2px;
+    box-shadow: none;
+    
+}
+
+
+
+
 /* Hover span über drei nav-items*/
 
 /* Hover shadow über search bar*/
 
 /* Hover border über search buttons*/
+
+/* Background-image Icon1 https://cdn1.iconfinder.com/data/icons/material-core/16/apps-128.png */
+
+
+/* Background-image Icon2 url('//ssl.gstatic.com/gb/images/i1_1967ca6a.png')*/
 
 
