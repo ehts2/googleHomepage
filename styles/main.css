@@ -30,6 +30,7 @@ a {
     display: block;
     width: 100%;
     position: relative;
+    top: 0;
 }
 
 .top_nav ul {
@@ -51,6 +52,7 @@ a {
 
 .icon1:hover{
     opacity: 1;
+    cursor: pointer;
 }
 
 .text_link{
@@ -94,19 +96,21 @@ a {
 
 .search_bar {
     display: block;
-    width: 600px;
-    height: 40px;
+    width: 580px;
+    height: 35px;
+    padding: 5px 12px;
     border: 1px solid rgba(0, 0, 0, 0.09);
     box-shadow: -1px 3px 2px rgba(0,0,0,0.2);
     background-color: #fff;
 }
 
 .search_text_input {
+    display: inline-block;
     height: inherit;
-    width: 85%;
+    width: 550px;
     border: none;
-    padding: 5px 12px;
     box-sizing: border-box;
+    
 }
 
 form input {
@@ -118,15 +122,129 @@ form input {
     letter-spacing: normal;
 }
 
-/* Hover span über drei nav-items*/
+.mic_icon {
+    display: inline-block;
+    height: 80%;
+    width: 24px;
+    padding: 0 8px;
+    box-sizing: border-box;
+    vertical-align: middle;
+}
 
+.mic_icon img {
+    display: block;
+    width: 17px;
+    height: 23px;
+
+}
+
+div.search_buttons {
+    display: block;
+    width: 580px;
+    height: auto;
+    padding: 30px;
+    margin: 0 auto;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.button1, .button2 {
+    display: inline-block;
+    width: 119px;
+    height: 34px;
+    border-radius: 2px;
+    padding: 0 10px;
+    margin: 3px 2px 5px 2px;
+    background-color: #f2f2f2;
+    color: #757575;
+    font-weight: 700;
+    font-size: 13px;
+    box-sizing: border-box;
+    border: none;
+}
+
+.button1:hover, .button2:hover {
+    border: 1px solid rgba(0,0,0,0.2);
+    color: #000;
+}
+
+/* Footer */
+
+#page_foot {
+    display: block;
+    height: 82px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background-color: #f2f2f2;
+    font: rgba(0,0,0,0.54);
+}
+
+.foot_top {
+    display: table;
+    position: absolute;
+    top: 0;
+    height: 50%;
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    text-align: left;
+    padding-left: 30px;
+    box-sizing: border-box;
+}
+
+.foot_top p {
+    display: table-cell;
+    vertical-align: middle;
+    font: rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+}
+
+.foot_bottom {
+    display: table;
+    position: absolute;
+    bottom: 0;
+    height: 50%;
+    width: 100%;
+    text-align: left;
+    padding-left: 30px;
+    padding-right: 30px;
+    box-sizing: border-box;
+}
+
+.bottom_nav_left {
+    height: auto;
+    width: auto;
+}
+
+.bottom_nav_left {
+    float: left;
+}
+
+.bottom_nav_left ul li {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.bottom_nav_right {
+    float: right;
+}
+
+.bottom_nav_right ul li {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.bottom_nav_left ul li:nth-child(1) {
+    margin-left: 0;
+}
+
+.bottom_nav_left ul li a,
+.bottom_nav_right ul li a {
+    font-size: 13px;
+}
 /* Hover shadow über search bar*/
 
-/* Hover border über search buttons*/
 
-/* Background-image Icon1 https://cdn1.iconfinder.com/data/icons/material-core/16/apps-128.png */
-
-
-/* Background-image Icon2 url('//ssl.gstatic.com/gb/images/i1_1967ca6a.png')*/
+/* Cursor bei apps hovering*/
 
 
